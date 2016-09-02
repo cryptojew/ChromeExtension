@@ -1,0 +1,20 @@
+// Source: https://developer.chrome.com/extensions/getstarted
+// Date : 2016-08-29
+//
+{
+  "manifest_version":2,
+
+  "name":"Getting started exemple",
+  "description":"This exension show a google image extension",
+  "version":"1.0",
+
+  "browser_action": {
+    "default_icon":"icon.png",
+    "default_popup":"popup.html",
+    "default_title":"Fuck off! Click here"
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
+}
